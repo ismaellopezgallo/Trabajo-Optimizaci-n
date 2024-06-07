@@ -1,0 +1,1360 @@
+2024-05-18 21:22:34,333 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-18 21:22:36,655 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.0234153570844305e-09, best pos: [0.99996814 0.99993599]
+2024-05-18 22:57:11,049 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9}
+2024-05-18 22:57:14,686 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.3148832175836977e-27, best pos: [1. 1.]
+2024-05-19 09:53:07,681 - pygad.pygad - ERROR - In PyGAD 2.20.0, the fitness function must accept 3 parameters:
+1) The instance of the 'pygad.GA' class.
+2) A solution to calculate its fitness value.
+3) The solution's index within the population.
+
+The passed fitness function named 'fitness_func' accepts 5 parameter(s).
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 951, in __init__
+    raise ValueError(f"In PyGAD 2.20.0, the fitness function must accept 3 parameters:\n1) The instance of the 'pygad.GA' class.\n2) A solution to calculate its fitness value.\n3) The solution's index within the population.\n\nThe passed fitness function named '{fitness_func.__code__.co_name}' accepts {fitness_func.__code__.co_argcount} parameter(s).")
+ValueError: In PyGAD 2.20.0, the fitness function must accept 3 parameters:
+1) The instance of the 'pygad.GA' class.
+2) A solution to calculate its fitness value.
+3) The solution's index within the population.
+
+The passed fitness function named 'fitness_func' accepts 5 parameter(s).
+2024-05-19 09:55:23,648 - pygad.pygad - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_11944\784854952.py", line 4, in fitness_func
+    if x < 0:
+       ^^^^^
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2024-05-19 09:55:23,654 - pygad.pygad - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1914, in run
+    self.last_generation_fitness = self.cal_pop_fitness()
+                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1871, in cal_pop_fitness
+    raise ex
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_11944\784854952.py", line 4, in fitness_func
+    if x < 0:
+       ^^^^^
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2024-05-19 09:56:37,699 - pygad.pygad - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_11944\1888350360.py", line 4, in fitness_func
+    if x < 0:
+       ^^^^^
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2024-05-19 09:56:37,704 - pygad.pygad - ERROR - The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1914, in run
+    self.last_generation_fitness = self.cal_pop_fitness()
+                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1871, in cal_pop_fitness
+    raise ex
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_11944\1888350360.py", line 4, in fitness_func
+    if x < 0:
+       ^^^^^
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2024-05-19 10:18:35,696 - pygad.pygad - ERROR - The number of parents to select for mating (80) cannot be greater than the number of solutions in the population (60) (i.e., num_parents_mating must always be <= sol_per_pop).
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 573, in __init__
+    raise ValueError(f"The number of parents to select for mating ({num_parents_mating}) cannot be greater than the number of solutions in the population ({self.sol_per_pop}) (i.e., num_parents_mating must always be <= sol_per_pop).\n")
+ValueError: The number of parents to select for mating (80) cannot be greater than the number of solutions in the population (60) (i.e., num_parents_mating must always be <= sol_per_pop).
+
+2024-05-19 10:29:25,517 - pygad.pygad - ERROR - unsupported operand type(s) for +: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_11944\2147575196.py", line 21, in fitness_func
+    return -(area_func(solution, F1, F0) + smoothness_penalty)
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'float'
+2024-05-19 10:29:25,523 - pygad.pygad - ERROR - unsupported operand type(s) for +: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1914, in run
+    self.last_generation_fitness = self.cal_pop_fitness()
+                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1871, in cal_pop_fitness
+    raise ex
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_11944\2147575196.py", line 21, in fitness_func
+    return -(area_func(solution, F1, F0) + smoothness_penalty)
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'float'
+2024-05-19 10:29:53,848 - pygad.pygad - ERROR - unsupported operand type(s) for +: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_11944\816754044.py", line 16, in fitness_func
+    return -(area_func(solution, F1, F0) + smoothness_penalty)
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'float'
+2024-05-19 10:29:53,854 - pygad.pygad - ERROR - unsupported operand type(s) for +: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1914, in run
+    self.last_generation_fitness = self.cal_pop_fitness()
+                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1871, in cal_pop_fitness
+    raise ex
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_11944\816754044.py", line 16, in fitness_func
+    return -(area_func(solution, F1, F0) + smoothness_penalty)
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'float'
+2024-05-19 10:30:18,721 - pygad.pygad - ERROR - unsupported operand type(s) for +: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_11944\3153641042.py", line 16, in fitness_func
+    return -(area_func(solution, F1, F0) + smoothness_penalty)
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'float'
+2024-05-19 10:30:18,725 - pygad.pygad - ERROR - unsupported operand type(s) for +: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1914, in run
+    self.last_generation_fitness = self.cal_pop_fitness()
+                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1871, in cal_pop_fitness
+    raise ex
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_11944\3153641042.py", line 16, in fitness_func
+    return -(area_func(solution, F1, F0) + smoothness_penalty)
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'float'
+2024-05-19 10:40:04,942 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:40:08,763 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.9461348206622544e-06, best pos: [0.99873085 0.99752121 0.86847519 0.77372586 0.81798497 0.7276604
+ 0.83795155 0.81749669 0.60030369 0.9492415  0.71216906 0.53329437
+ 0.76960074 0.69158117 0.78852265 0.59816055 0.6125637  0.67760617
+ 0.85857485 0.66925061 0.86422499 0.71832536 0.78690066 0.74834961
+ 0.88277089 0.61866185 0.68067327 0.5019572  0.72085314 0.91422986
+ 0.63448752 0.61706871 0.91350343 0.88053044 0.62259621 0.78839463
+ 0.66088431 0.8925977  0.60844424 0.88999843 0.69857262 0.599573
+ 0.62901108 0.84952404 0.50315157 0.53373761 0.5640406  0.84581928]
+2024-05-19 10:40:28,928 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:41:05,863 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:41:25,764 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:41:32,966 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:42:30,423 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:42:42,615 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:42:55,339 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:44:43,112 - pyswarms.single.global_best - INFO - Optimize for [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:45:48,923 - pyswarms.single.global_best - INFO - Optimize for [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:45:56,975 - pyswarms.single.global_best - INFO - Optimize for [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:47:24,676 - pyswarms.single.global_best - INFO - Optimize for [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:47:32,841 - pyswarms.single.global_best - INFO - Optimize for [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:47:52,413 - pyswarms.single.global_best - INFO - Optimize for [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:50:43,608 - pyswarms.single.global_best - INFO - Optimize for [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:51:58,856 - pyswarms.single.global_best - INFO - Optimize for [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:52:21,871 - pyswarms.single.global_best - INFO - Optimize for [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 10:52:23,566 - pyswarms.single.global_best - INFO - Optimize for [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+ 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:02:07,137 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:04:40,717 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:05:14,081 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:07:49,363 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:08:10,081 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:09:49,901 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (1,)
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pyswarms\backend\generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+                   ^^^^^^^^^^^^^^^^^^
+  File "mtrand.pyx", line 1154, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 600, in numpy.random._common.cont
+  File "_common.pyx", line 518, in numpy.random._common.cont_broadcast_2
+  File "_common.pyx", line 245, in numpy.random._common.validate_output_shape
+ValueError: Output size (100, 1) is not compatible with broadcast dimensions of inputs (100, 48).
+2024-05-19 11:11:36,830 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (1000,)
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pyswarms\backend\generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+                   ^^^^^^^^^^^^^^^^^^
+  File "mtrand.pyx", line 1154, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 600, in numpy.random._common.cont
+  File "_common.pyx", line 517, in numpy.random._common.cont_broadcast_2
+  File "__init__.pxd", line 741, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (100, 1000) and arg 1 with shape (100, 48).
+2024-05-19 11:14:45,022 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (100,)
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pyswarms\backend\generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+                   ^^^^^^^^^^^^^^^^^^
+  File "mtrand.pyx", line 1154, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 600, in numpy.random._common.cont
+  File "_common.pyx", line 517, in numpy.random._common.cont_broadcast_2
+  File "__init__.pxd", line 741, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (48, 100) and arg 1 with shape (48, 48).
+2024-05-19 11:14:51,002 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:18:01,013 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:18:44,414 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:21:08,568 - pyswarms.single.global_best - INFO - Optimize for [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:21:23,421 - pyswarms.single.global_best - INFO - Optimize for [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:21:55,567 - pyswarms.single.global_best - INFO - Optimize for [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:22:01,095 - pyswarms.single.global_best - INFO - Optimize for [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0] iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:24:08,461 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:25:46,534 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:28:52,592 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:30:16,708 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:30:52,187 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:31:50,918 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:32:12,482 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 728.9137525786557, best pos: [0.16062966 0.25201745 0.20762427 0.74891798 0.22436943 0.28902482
+ 0.44135292 0.01484379 0.87325155 0.08667802 0.76991549 0.42327036
+ 0.02733557 0.59738523 0.53937612 0.69068906 0.9302615  0.64924934
+ 0.37372884 0.70641816 0.15513149 0.41165128 0.30336885 0.26303993
+ 0.89065707 0.27268073 0.43314352 0.38897114 0.70909308 0.62153462
+ 0.75838391 0.47306428 0.98116352 0.1374043  0.33671794 0.48384608
+ 0.33108195 0.59097303 0.27356388 0.71117601 0.6611308  0.83839781
+ 0.10355    0.14096484 0.47839334 0.74836162 0.95647018 0.83202542]
+2024-05-19 11:32:22,071 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:32:43,987 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 720.3317229526449, best pos: [0.56204072 0.3112934  0.48298476 0.48307286 0.54399094 0.39065844
+ 0.16021411 0.30766067 0.34885385 0.47862366 0.24822431 0.47486568
+ 0.25510654 0.31855645 0.27542146 0.24734533 0.63616315 0.51326488
+ 0.02764774 0.55760363 0.4553065  0.46667769 0.31863902 0.61523888
+ 0.56681648 0.51555747 0.46260847 0.24887662 0.57448287 0.53205336
+ 0.77947794 0.57923767 0.50972821 0.56351338 0.41583449 0.94288717
+ 0.60588193 0.40316686 0.45518184 0.38622985 0.67071154 0.67634783
+ 0.32849144 0.54880451 0.62767729 0.99478384 0.54269288 0.00220668]
+2024-05-19 11:33:11,291 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:33:37,173 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:33:56,739 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 723.7308752800109, best pos: [0.93752109 0.68682713 0.65923884 0.25364704 0.12529255 0.77666673
+ 0.32531388 0.06785454 0.64106797 0.47434884 0.81645682 0.22748414
+ 0.12401575 0.09045611 0.47154987 0.7411278  0.48848768 0.25229341
+ 0.66668602 0.26344039 0.59442644 0.13299692 0.37541962 0.15465402
+ 0.30048678 0.14176317 0.87283395 0.56366165 0.11574677 0.07523924
+ 0.83018795 0.59980913 0.19848805 0.35867789 0.87268911 0.69161501
+ 0.01033771 0.84648424 0.65645511 0.44264625 0.3568016  0.83015742
+ 0.21732833 0.61181972 0.85384267 0.01602657 0.24667066 0.72087362]
+2024-05-19 11:35:17,681 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:35:37,541 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 718.6510747780462, best pos: [1.25366305e-01 6.98897972e-01 1.53883395e-01 4.73107197e-01
+ 2.24387674e-01 9.23419436e-01 1.76240161e-01 1.30359292e-01
+ 1.71093509e-01 2.73404569e-01 3.31910758e-01 2.30382684e-01
+ 9.12155001e-01 8.85110463e-01 3.98482374e-01 5.44762259e-01
+ 3.84426389e-01 2.59790225e-01 7.03629918e-01 9.15815236e-01
+ 7.13819035e-01 4.60887490e-01 5.13118652e-01 4.86885316e-01
+ 9.75287811e-04 6.37113422e-01 6.84177710e-01 4.53015641e-01
+ 7.87048111e-01 7.98666612e-01 1.92195268e-01 6.07538592e-01
+ 5.56890226e-01 2.10436338e-01 4.34381223e-01 3.93128305e-01
+ 2.62846471e-01 9.50258974e-01 9.99931964e-01 8.69566498e-01
+ 5.26082471e-01 2.12014723e-01 6.19479622e-01 5.76455169e-01
+ 5.02511237e-01 3.00161131e-01 6.37636447e-01 8.67042277e-01]
+2024-05-19 11:36:37,309 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:36:45,415 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:36:47,315 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 745.3989682666659, best pos: [0.62858443 0.54892957 0.35216235 0.66111672 0.04252909 0.58642518
+ 0.50962156 0.17315424 0.60757393 0.68509453 0.18462856 0.43101658
+ 0.27618299 0.83927236 0.25648331 0.78622339 0.7058715  0.60006684
+ 0.79523504 0.4573591  0.10159313 0.21989294 0.63783801 0.94016178
+ 0.66962402 0.71630024 0.06814174 0.70449595 0.13679109 0.85586974
+ 0.43519248 0.60409862 0.26050366 0.2487957  0.11438065 0.08157412
+ 0.02077742 0.2236183  0.9753813  0.07498031 0.46663628 0.90778266
+ 0.24132449 0.53864739 0.55043774 0.36926203 0.88546374 0.57587648]
+2024-05-19 11:37:01,916 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:37:03,026 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 259.28344217309933, best pos: [0.38829693 0.20691733 0.8512276  0.28974068 0.51553238 0.21685189
+ 0.71665717 0.22665137 0.3590174  0.3229888  0.01647123 0.67078815
+ 0.47557137 0.09744946 0.79726187 0.38367938 0.70484053 0.43457104]
+2024-05-19 11:44:50,840 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:45:05,244 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:45:06,334 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 251.58775359821968, best pos: [0.39739561 0.27803347 0.85732991 0.97849704 0.55089201 0.34158923
+ 0.31853021 0.02525551 0.53031369 0.54127183 0.55181453 0.09724012
+ 0.33748411 0.29208934 0.25463212 0.32978182 0.83919149 0.76810173]
+2024-05-19 11:45:18,751 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 11:45:19,721 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 271.41789640270645, best pos: [0.61196657 0.66356528 0.1766093  0.52248824 0.59763167 0.25264077
+ 0.05374047 0.63858678 0.51992247 0.56111495 0.85177938 0.36969405
+ 0.0669981  0.97233387 0.15446929 0.59202852 0.79403469 0.78693613]
+2024-05-19 12:17:22,775 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 12:17:23,644 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 266.03741391135594, best pos: [0.40208609 0.27926466 0.12529986 0.93026798 0.62209924 0.20483682
+ 0.20203118 0.61771114 0.3783974  0.81377447 0.05202057 0.46013199
+ 0.81085807 0.17656729 0.65234271 0.31665637 0.50970034 0.61136647]
+2024-05-19 12:17:29,872 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 12:17:30,891 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 249.30874383735718, best pos: [0.48215024 0.4452645  0.52668272 0.40468683 0.93112544 0.32811963
+ 0.06477907 0.38866578 0.48446723 0.55954242 0.62047204 0.932836
+ 0.5798611  0.02846556 0.32360532 0.63110026 0.10764309 0.79723875]
+2024-05-19 12:30:26,284 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 12:30:27,326 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 277.16721942198114, best pos: [0.34123616 0.52831955 0.77561928 0.68816102 0.35275806 0.24540941
+ 0.71864463 0.5080222  0.83939042 0.25067771 0.68143784 0.02709831
+ 0.5365148  0.07069428 0.20714546 0.77339156 0.97667563 0.49030528]
+2024-05-19 12:31:21,002 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 12:31:22,237 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 245.24703885964328, best pos: [0.98648477 0.51392875 0.51054805 0.5822165  0.06410104 0.06978346
+ 0.32264062 0.31223845 0.85610439 0.8084323  0.95698529 0.13455524
+ 0.03267412 0.65969615 0.04415492 0.0484314  0.54755038 0.48913713]
+2024-05-19 13:01:00,727 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 13:01:52,913 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 13:09:36,608 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:09:37,533 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 270.98779084396136, best pos: [0.7427189  0.71071784 0.79203804 0.25025499 0.51870042 0.14197133
+ 0.4897883  0.02892695 0.02497549 0.29890842 0.65095867 0.73441408
+ 0.84526584 0.62104586 0.56980787 0.16394884 0.440543   0.65090288]
+2024-05-19 13:18:29,681 - pygad.pygad - ERROR - Undefined parent selection type: roulette. 
+The assigned value to the 'parent_selection_type' parameter does not refer to one of the supported parent selection techniques which are: 
+-sss (steady state selection)
+-rws (roulette wheel selection)
+-sus (stochastic universal selection)
+-rank (rank selection)
+-random (random selection)
+-tournament (tournament selection)
+-tournament_nsga2: (Tournament selection for NSGA-II)
+-nsga2: (NSGA-II parent selection).
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 883, in __init__
+    raise TypeError(f"Undefined parent selection type: {parent_selection_type}. \nThe assigned value to the 'parent_selection_type' parameter does not refer to one of the supported parent selection techniques which are: \n-sss (steady state selection)\n-rws (roulette wheel selection)\n-sus (stochastic universal selection)\n-rank (rank selection)\n-random (random selection)\n-tournament (tournament selection)\n-tournament_nsga2: (Tournament selection for NSGA-II)\n-nsga2: (NSGA-II parent selection).\n")
+TypeError: Undefined parent selection type: roulette. 
+The assigned value to the 'parent_selection_type' parameter does not refer to one of the supported parent selection techniques which are: 
+-sss (steady state selection)
+-rws (roulette wheel selection)
+-sus (stochastic universal selection)
+-rank (rank selection)
+-random (random selection)
+-tournament (tournament selection)
+-tournament_nsga2: (Tournament selection for NSGA-II)
+-nsga2: (NSGA-II parent selection).
+
+2024-05-19 13:19:26,522 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:19:30,076 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1492.861192463285, best pos: [0.32204223 0.6832223  0.08418038 0.81272986 0.82198723 0.50162522
+ 0.35765576 0.05337091 0.85342762 0.71773254 0.27642676 0.42871825
+ 0.21761828 0.90392671 0.91351207 0.66578521 0.40974819 0.07441775
+ 0.37155597 0.64297474 0.31231185 0.15141617 0.28497537 0.06859814
+ 0.5641727  0.98956588 0.4201972  0.97216484 0.79403126 0.43732739
+ 0.03057662 0.89557049 0.29991872 0.88530868 0.53838109 0.75326256
+ 0.50123638 0.56482028 0.87788039 0.24833076 0.56372043 0.2077966
+ 0.49836681 0.30192536 0.94117745 0.67353093 0.77999744 0.72273934
+ 0.29701105 0.42472381 0.61143971 0.83770262 0.10726685 0.37012292
+ 0.21237652 0.2138849  0.88160745 0.30846394 0.57855875 0.91726904
+ 0.12718115 0.63682277 0.93239743 0.78469242 0.72788333 0.57006471
+ 0.2462026  0.58201003 0.33868722 0.64887227 0.69411157 0.89013419
+ 0.08827796 0.54639528 0.58060196 0.67345048 0.88320416 0.6757299
+ 0.65701919 0.60662499 0.53987646 0.86841494 0.38485381 0.65133793
+ 0.63916107 0.80907671 0.93069866 0.63434463 0.71133346 0.59294103
+ 0.65691396 0.51389095 0.78648103 0.4166034  0.58958064 0.15128052
+ 0.87608967 0.94332052]
+2024-05-19 13:19:50,947 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:19:51,954 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 262.97532508814777, best pos: [0.48097438 0.44435467 0.99726136 0.36100419 0.01403035 0.99883364
+ 0.17484785 0.16052196 0.64907057 0.30628555 0.091479   0.76033764
+ 0.24049632 0.84636083 0.71829889 0.80816783 0.15542821 0.12913147]
+2024-05-19 13:22:06,934 - pygad.pygad - ERROR - Unexpected type of the 'mutation_percent_genes' parameter. When mutation_type='adaptive', then the 'mutation_percent_genes' parameter should exist and assigned a list/tuple/numpy.ndarray with 2 values but (20) found.
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 786, in __init__
+    raise TypeError(f"Unexpected type of the 'mutation_percent_genes' parameter. When mutation_type='adaptive', then the 'mutation_percent_genes' parameter should exist and assigned a list/tuple/numpy.ndarray with 2 values but ({mutation_percent_genes}) found.")
+TypeError: Unexpected type of the 'mutation_percent_genes' parameter. When mutation_type='adaptive', then the 'mutation_percent_genes' parameter should exist and assigned a list/tuple/numpy.ndarray with 2 values but (20) found.
+2024-05-19 13:27:52,219 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:27:53,213 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 258.8093109294453, best pos: [0.48296986 0.13263014 0.17096245 0.44411611 0.75692702 0.38557599
+ 0.84442385 0.01011707 0.39389479 0.314622   0.73715123 0.13819804
+ 0.3789341  0.40885805 0.9362237  0.06219765 0.58377513 0.25396975]
+2024-05-19 13:28:26,973 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:28:27,998 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 272.6414665964739, best pos: [0.17383726 0.33642769 0.49817386 0.14252308 0.2428381  0.83909584
+ 0.48263929 0.68211323 0.64175508 0.21401184 0.73724875 0.62409836
+ 0.10921821 0.90049501 0.92161955 0.96455479 0.57489401 0.90446859]
+2024-05-19 13:29:25,076 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:29:26,038 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 272.3044987926752, best pos: [0.9633978  0.01733946 0.79420184 0.18984574 0.91155727 0.68146008
+ 0.49344482 0.53262478 0.90594076 0.15526022 0.47794473 0.00942898
+ 0.38718776 0.35987209 0.20229724 0.37149659 0.86827311 0.36982645]
+2024-05-19 13:29:57,444 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:29:58,608 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 269.8105526886038, best pos: [0.93739265 0.10090303 0.2637749  0.78479368 0.80899875 0.21674929
+ 0.45181005 0.36657556 0.40712404 0.56882636 0.77424777 0.61546151
+ 0.66840734 0.46149668 0.65740395 0.25395808 0.0955332  0.67589997]
+2024-05-19 13:30:35,092 - pygad.pygad - ERROR - Incorrect value to the keep_parents parameter: 10. 
+The assigned value to the keep_parent parameter must satisfy the following conditions: 
+1) Less than or equal to sol_per_pop
+2) Less than or equal to num_parents_mating
+3) Greater than or equal to -1.
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 903, in __init__
+    raise ValueError(f"Incorrect value to the keep_parents parameter: {keep_parents}. \nThe assigned value to the keep_parent parameter must satisfy the following conditions: \n1) Less than or equal to sol_per_pop\n2) Less than or equal to num_parents_mating\n3) Greater than or equal to -1.")
+ValueError: Incorrect value to the keep_parents parameter: 10. 
+The assigned value to the keep_parent parameter must satisfy the following conditions: 
+1) Less than or equal to sol_per_pop
+2) Less than or equal to num_parents_mating
+3) Greater than or equal to -1.
+2024-05-19 13:31:08,781 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:31:09,715 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 275.1384052228821, best pos: [0.82763692 0.5366789  0.00595113 0.20196301 0.46342746 0.5270298
+ 0.25288167 0.91252824 0.7631492  0.78478431 0.61327453 0.87346325
+ 0.14382171 0.57140204 0.75378396 0.98396434 0.78125985 0.48369927]
+2024-05-19 13:32:29,197 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:32:30,146 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 270.97365906620587, best pos: [0.78230238 0.5332081  0.49421153 0.56728421 0.00323709 0.1915343
+ 0.41517396 0.36715367 0.6657261  0.31262347 0.41730724 0.27787311
+ 0.28819814 0.4978288  0.62807778 0.46308649 0.22137031 0.43624859]
+2024-05-19 13:39:43,711 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 13:40:11,493 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 13:40:12,088 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:40:13,097 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 278.00546413914594, best pos: [0.03438667 0.84886804 0.35122731 0.08918306 0.01367647 0.14255037
+ 0.20470974 0.39827541 0.05796067 0.40596776 0.19436568 0.05750984
+ 0.75530323 0.71547084 0.93228876 0.23079528 0.10574673 0.03461514]
+2024-05-19 13:41:17,192 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 13:41:17,928 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:41:18,799 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 273.42132962669956, best pos: [0.68994959 0.13164716 0.26382073 0.15597216 0.21410419 0.79198248
+ 0.28312812 0.47731227 0.26223647 0.55308992 0.90674237 0.91314616
+ 0.75101326 0.61287919 0.98716019 0.59226775 0.45753035 0.66117398]
+2024-05-19 13:41:33,158 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 13:41:34,559 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:41:35,752 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 266.9932576785219, best pos: [0.82321822 0.55101825 0.87692208 0.34726672 0.51073441 0.52406354
+ 0.38345821 0.93615067 0.26767891 0.60836492 0.59931974 0.63733381
+ 0.6496644  0.37806072 0.80628794 0.8980209  0.50875457 0.04718263]
+2024-05-19 13:42:09,720 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 13:42:14,804 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 13:42:24,290 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 13:42:24,589 - pygad.pygad - ERROR - The plot_genes() method with solutions='all' can only be called if 'save_solutions=True' in the pygad.GA class constructor.
+2024-05-19 13:42:57,516 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 13:43:10,638 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:43:11,634 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 265.62333749535316, best pos: [0.08487854 0.58880485 0.87335314 0.57284203 0.48318817 0.8147073
+ 0.07556491 0.00971318 0.4771303  0.54659732 0.53739556 0.14716742
+ 0.8693118  0.64844655 0.64975013 0.54880879 0.47724327 0.28265428]
+2024-05-19 13:44:02,401 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 13:44:03,179 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:44:04,081 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 266.26030551323777, best pos: [0.42958183 0.81211429 0.49778375 0.09425443 0.53403169 0.14967191
+ 0.43145655 0.30597515 0.17039149 0.25976398 0.28030188 0.97560435
+ 0.26100994 0.52210583 0.40627834 0.91161784 0.62637481 0.38323912]
+2024-05-19 13:44:49,532 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-19 13:45:13,579 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.4}
+2024-05-19 13:46:17,814 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2339.8781711576366, best pos: [0.24940714 0.74046646 0.57739072 0.57206143 0.42948146 0.35874632
+ 0.14063833 0.66414852 0.67897652 0.25256268 0.85532495 0.3930423
+ 0.99711838 0.1676445  0.8885853  0.80751217 0.35632684 0.43399749]
+2024-05-19 13:46:55,019 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 13:47:01,629 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2546.7278577893603, best pos: [0.42201823 0.65922477 0.53707264 0.15600288 0.55386028 0.75579288
+ 0.7863866  0.01320536 0.70612479 0.26675237 0.49707936 0.63952877
+ 0.90289103 0.58476004 0.08444798 0.45998667 0.44728973 0.8131859 ]
+2024-05-19 13:47:19,232 - pyswarms.single.global_best - INFO - Optimize for 10000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 13:52:44,279 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 13:52:45,504 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 184.31110705451883, best pos: [0.36185854 0.34573813 0.58165939 0.74391826 0.52658488 0.62240818
+ 0.78729941 0.60631442 0.24752643 0.63935845 0.52820572 0.42920384
+ 0.39421427 0.33587347 0.62003737 0.97459954 0.92432166 0.53447543]
+2024-05-19 15:20:50,368 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:20:51,121 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:20:52,080 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 67.32901984233966, best pos: [0.17036062 0.43398739 0.1607896  0.33561419 0.43472673 0.07320455
+ 0.31294053 0.44472741 0.10465577 0.17528929 0.11439036 0.41972597
+ 0.38088722 0.0256137  0.35925446 0.36386237 0.18835069 0.0651437 ]
+2024-05-19 15:22:07,352 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:22:08,048 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:22:08,843 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 158.35985194765232, best pos: [0.29468389 0.62956697 0.28143407 0.07636997 0.25953358 0.466877
+ 0.39043677 0.09411497 0.36123658 0.55703256 0.72522587 0.7869574
+ 0.20769021 0.67450881 0.39676161 0.26367646 0.49707009 0.50035837]
+2024-05-19 15:25:20,408 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:25:21,103 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:25:21,910 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 118.48949692122326, best pos: [0.21847287 0.33449392 0.39650341 0.14409629 0.4373447  0.41174498
+ 0.33529174 0.46745497 0.20937685 0.29018004 0.35576467 0.19309637
+ 0.51079513 0.11242144 0.56111032 0.02779695 0.12685286 0.56756452]
+2024-05-19 15:26:35,141 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:26:35,966 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:26:36,829 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 126.3410772775878, best pos: [0.48513924 0.48139919 0.49496482 0.5651505  0.05018235 0.33319073
+ 0.15975374 0.16430573 0.215513   0.0380083  0.1451474  0.58124591
+ 0.29794124 0.17566021 0.49627328 0.3438676  0.6427333  0.17593357]
+2024-05-19 15:27:34,053 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:27:34,851 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:27:35,770 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 110.74192512483299, best pos: [0.47086194 0.18312296 0.57484615 0.21731109 0.39376921 0.23590187
+ 0.02915013 0.3794097  0.26231881 0.38664663 0.47062346 0.49858049
+ 0.37873689 0.50034572 0.26679041 0.03568159 0.46074332 0.36578648]
+2024-05-19 15:28:01,894 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:28:02,642 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:28:03,469 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 104.22394335505365, best pos: [0.42652484 0.10848336 0.36558958 0.51729863 0.5101147  0.50621674
+ 0.35660593 0.41603472 0.26257319 0.49698902 0.43499581 0.22407351
+ 0.48952587 0.41349532 0.46394689 0.61270331 0.22790558 0.19600669]
+2024-05-19 15:32:50,411 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:32:51,420 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:32:52,409 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 100.96267327138841, best pos: [0.33713416 0.63374248 0.246458   0.11223727 0.24399234 0.43068666
+ 0.5495786  0.51503261 0.3703459  0.69850119 0.32548189 0.37913499
+ 0.52808319 0.4294937  0.18323853 0.42591534 0.20678936 0.17531277]
+2024-05-19 15:33:13,787 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:33:14,659 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:33:15,571 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 127.17166402517952, best pos: [0.03498919 0.56494427 0.15140111 0.05554251 0.51563075 0.63806918
+ 0.29814707 0.11827204 0.32549252 0.34838988 0.46240875 0.36735765
+ 0.5217137  0.60794415 0.10711978 0.05775484 0.36486007 0.27299864]
+2024-05-19 15:41:49,700 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:41:50,523 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:41:51,440 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 113.40791260699054, best pos: [0.11506092 0.15332258 0.06319569 0.41883564 0.09563762 0.26451485
+ 0.26165258 0.42968987 0.2401876  0.50042716 0.45111285 0.16207988
+ 0.31367009 0.22060725 0.14781067 0.38619318 0.49998097 0.50318207]
+2024-05-19 15:42:13,818 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:42:14,564 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:42:15,417 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 108.5230475359936, best pos: [0.3476096  0.23294084 0.63046827 0.46124335 0.0083243  0.45807918
+ 0.03925302 0.18039398 0.09860015 0.17905974 0.65142333 0.50881283
+ 0.44537385 0.43394654 0.52870265 0.21744033 0.04952779 0.32377449]
+2024-05-19 15:42:34,553 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:42:35,368 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:42:36,230 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 110.33975977197389, best pos: [0.58542407 0.25347776 0.45903081 0.27214503 0.20836734 0.2629987
+ 0.60832331 0.11838315 0.13346978 0.40140391 0.20341083 0.60408826
+ 0.38435256 0.29054932 0.08583679 0.36673598 0.38938108 0.37164822]
+2024-05-19 15:43:35,184 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:43:36,099 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:43:37,183 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 129.37380213389088, best pos: [0.41751605 0.63538521 0.42990687 0.6360097  0.42606041 0.10303659
+ 0.34732605 0.223656   0.53998766 0.61696879 0.4422265  0.19189806
+ 0.34712382 0.45714761 0.18889792 0.56027286 0.53698103 0.25508227]
+2024-05-19 15:43:56,764 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:43:57,481 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:43:58,328 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 114.71113347745498, best pos: [0.33805119 0.46150618 0.02512057 0.21336467 0.12329875 0.25547782
+ 0.42070418 0.45986737 0.52329655 0.07643547 0.19948497 0.05535334
+ 0.40960992 0.33391379 0.11898424 0.22017368 0.59437445 0.57771871]
+2024-05-19 15:44:39,125 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:44:39,949 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:44:40,851 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 116.77820376683233, best pos: [0.26183587 0.37827877 0.41647794 0.23172846 0.390194   0.45686237
+ 0.60749346 0.27225205 0.6036425  0.31148345 0.18914499 0.45723057
+ 0.24194777 0.57568486 0.28481244 0.25694122 0.3784437  0.1234303 ]
+2024-05-19 15:45:04,326 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:45:05,058 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:45:06,017 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 116.67441190196146, best pos: [0.30893968 0.05768341 0.53591129 0.27349102 0.63111364 0.14238311
+ 0.08879092 0.35482427 0.41287833 0.31567911 0.25696161 0.24809815
+ 0.36996121 0.65344529 0.25801583 0.3064172  0.60863225 0.50243303]
+2024-05-19 15:46:04,336 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:46:05,231 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:46:06,287 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 124.5908975151634, best pos: [0.32382525 0.37915995 0.36937617 0.45101066 0.67432031 0.62338854
+ 0.58584513 0.19503215 0.45363965 0.13197295 0.18760579 0.09043581
+ 0.67353124 0.14934415 0.23089582 0.41317429 0.39280577 0.47982696]
+2024-05-19 15:47:05,018 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:47:05,925 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:47:06,871 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 120.6217187664756, best pos: [0.31051644 0.54554941 0.25547308 0.41283169 0.10987646 0.22343853
+ 0.51898049 0.46517003 0.5951564  0.36924252 0.51407618 0.26726766
+ 0.57767311 0.35612143 0.162466   0.20174096 0.25576387 0.48036604]
+2024-05-19 15:47:15,210 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:47:16,094 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:47:17,946 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 311.3318852004751, best pos: [0.21345607 0.35303429 0.48603146 0.11587575 0.07330239 0.2706654
+ 0.38914187 0.40527291 0.68770453 0.55995214 0.27572532 0.04999483
+ 0.20804988 0.14315523 0.23218402 0.56780982 0.04631421 0.09410299
+ 0.5950518  0.5546783  0.13839312 0.36519383 0.05751496 0.2437237
+ 0.13433312 0.17146039 0.2260313  0.25541953 0.04298059 0.09221404
+ 0.4081511  0.28971907 0.05744353 0.52135671 0.49046604 0.41396277
+ 0.46070729 0.62001505 0.05213234 0.14027908 0.41551967 0.04454052
+ 0.14360595 0.07297332 0.41419385 0.04310019 0.37298927 0.68191688]
+2024-05-19 15:47:37,068 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:47:37,989 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:47:39,978 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 262.25821755679283, best pos: [0.5553054  0.47606589 0.26403405 0.44675624 0.39014999 0.19296147
+ 0.03199886 0.18991511 0.25365144 0.1392046  0.04538332 0.1874176
+ 0.2589531  0.09589239 0.31814449 0.31444068 0.04741432 0.65146212
+ 0.28293538 0.39058578 0.63059111 0.11565147 0.17136043 0.24751718
+ 0.14436636 0.05399954 0.31406619 0.39423214 0.31029522 0.0755022
+ 0.6683807  0.38344357 0.24298866 0.33611872 0.25193522 0.58414448
+ 0.51018205 0.31618057 0.33164363 0.0468717  0.39264549 0.65892551
+ 0.37095838 0.27864335 0.12273841 0.45116223 0.0879354  0.67340561]
+2024-05-19 15:47:50,902 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:47:51,689 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:47:53,528 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 287.7938259171401, best pos: [0.3208704  0.27453586 0.5168669  0.27076405 0.53825067 0.50683838
+ 0.13560936 0.34650961 0.42515138 0.33140695 0.37721198 0.34169548
+ 0.53273032 0.29912394 0.31379859 0.67988403 0.11054204 0.53636599
+ 0.46560493 0.61244924 0.32243229 0.68786376 0.52951311 0.45228829
+ 0.41415774 0.6310863  0.67266155 0.62213547 0.21880434 0.45046981
+ 0.10117563 0.20128963 0.14248524 0.1882675  0.25890198 0.24112132
+ 0.4009935  0.65312807 0.53908624 0.20615866 0.2879533  0.20138591
+ 0.21276728 0.2668619  0.43786785 0.41480978 0.62346272 0.48124562]
+2024-05-19 15:48:17,294 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:48:18,130 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:48:20,182 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 325.54824458170714, best pos: [0.61646359 0.29569617 0.15782237 0.42544441 0.39932806 0.44671661
+ 0.274232   0.51274847 0.67061248 0.06056035 0.69458564 0.37855779
+ 0.5004378  0.21033145 0.57721988 0.39371652 0.01936141 0.54960239
+ 0.54631229 0.15330164 0.02810435 0.48921833 0.54362755 0.21907163
+ 0.55038482 0.19309191 0.13080821 0.31015839 0.4076947  0.5586512
+ 0.43209427 0.1189149  0.51904259 0.10945216 0.01125208 0.44428762
+ 0.21967541 0.272373   0.44830785 0.42408784 0.02654043 0.27893621
+ 0.410163   0.39305647 0.21650817 0.43740104 0.32821664 0.47006514]
+2024-05-19 15:48:44,685 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:48:45,465 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:48:47,667 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 320.85392596809083, best pos: [0.09625056 0.5787662  0.10044069 0.37400583 0.57232658 0.01377861
+ 0.21057729 0.24469396 0.35710444 0.24524402 0.67147825 0.21598252
+ 0.3861781  0.38812465 0.67508767 0.42852731 0.14403548 0.46309304
+ 0.1620875  0.24434969 0.65922179 0.3789845  0.09476624 0.40118678
+ 0.41501432 0.54679197 0.35256667 0.57910234 0.1562532  0.55318981
+ 0.49517366 0.3711413  0.18653916 0.24868295 0.52919677 0.47427826
+ 0.0766349  0.62757094 0.01235738 0.47768035 0.61249577 0.47596136
+ 0.15264035 0.27849307 0.36843824 0.45196965 0.36905753 0.3484122 ]
+2024-05-19 15:51:45,891 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:51:46,678 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:51:48,647 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 165.7690922412591, best pos: [0.42261171 0.40579127 0.43939634 0.06937966 0.15466694 0.46810037
+ 0.13477444 0.32768561 0.15794139 0.28874796 0.36744562 0.08110105
+ 0.40038764 0.06427849 0.3506129  0.13356999 0.1503135  0.09997132
+ 0.04230637 0.3623542  0.20116331 0.30742536 0.38282908 0.35945057
+ 0.25158042 0.35636509 0.39377108 0.38346443 0.41494511 0.38507216
+ 0.21922096 0.07135611 0.29357876 0.06975151 0.26957    0.2878229
+ 0.15300542 0.14596443 0.12737301 0.07466488 0.27638575 0.27186173
+ 0.28419759 0.42151376 0.23225691 0.04726849 0.10933145 0.24073925]
+2024-05-19 15:51:58,261 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:51:59,015 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:52:00,801 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 155.31281772262085, best pos: [0.46440129 0.22797042 0.31276787 0.19276195 0.44806438 0.10965231
+ 0.3534793  0.29040539 0.42741048 0.26622556 0.11546237 0.25785174
+ 0.08063376 0.13645152 0.32015906 0.35413551 0.37853564 0.01670671
+ 0.18974048 0.05075452 0.1206557  0.22579445 0.04168854 0.00815071
+ 0.17546975 0.24080074 0.32303823 0.17544932 0.37796082 0.34578555
+ 0.29587185 0.0804884  0.113156   0.163203   0.34674581 0.390403
+ 0.09670827 0.05462606 0.27011623 0.15734973 0.16918031 0.17253445
+ 0.14250482 0.48059521 0.29795697 0.41941693 0.18782307 0.36248993]
+2024-05-19 15:54:55,383 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 15:54:57,019 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 15:54:59,257 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 148.58014280146503, best pos: [0.13189337 0.11728913 0.19775734 0.22071929 0.34883507 0.30715283
+ 0.24551627 0.33854277 0.33749669 0.12594822 0.13240152 0.09616903
+ 0.24585119 0.13907153 0.40460769 0.24325556 0.17768275 0.40571747
+ 0.2019411  0.15874486 0.23432056 0.24271732 0.36761097 0.1239041
+ 0.07236688 0.4448709  0.03009764 0.34328565 0.33867279 0.06141903
+ 0.39912762 0.30402519 0.46674526 0.37538005 0.3513985  0.42705943
+ 0.31281586 0.00481007 0.4981629  0.38747507 0.22249497 0.19743776
+ 0.30505231 0.27108025 0.07576035 0.3702132  0.1340471  0.30873578]
+2024-05-19 16:02:01,358 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 16:02:02,114 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 16:02:04,046 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 167.11172852480277, best pos: [0.37523937 0.07396292 0.2963358  0.09527671 0.11662349 0.20259627
+ 0.44761799 0.04172358 0.13182181 0.12314277 0.31355203 0.17447922
+ 0.49049794 0.25533727 0.31041657 0.33029527 0.24010884 0.44105165
+ 0.02664491 0.15144468 0.29901138 0.44872848 0.02339806 0.257007
+ 0.41138313 0.30687112 0.26079286 0.18210243 0.13809858 0.37563699
+ 0.00145456 0.42845167 0.15311805 0.28298339 0.08098989 0.28393335
+ 0.31545059 0.07206503 0.29229287 0.26988908 0.34556988 0.19121665
+ 0.39561333 0.3944833  0.17852874 0.2232082  0.33055666 0.34173158]
+2024-05-19 16:02:54,022 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 16:02:54,759 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 16:02:56,701 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 219.49897521274332, best pos: [0.32605016 0.38669479 0.18522367 0.04097426 0.36418175 0.21725402
+ 0.21290095 0.04224851 0.18962098 0.33160609 0.03771978 0.11761065
+ 0.37182105 0.50964415 0.22949887 0.5544733  0.22426841 0.23641863
+ 0.2919432  0.28336748 0.33280161 0.0882396  0.09890775 0.42524678
+ 0.21085549 0.16221951 0.08486532 0.00628185 0.04097072 0.18345607
+ 0.24232943 0.02837124 0.32144347 0.15654252 0.06689254 0.37399697
+ 0.1469897  0.25526712 0.48854628 0.5332582  0.33077175 0.14439862
+ 0.17155592 0.21433711 0.58241403 0.16468287 0.29167186 0.3984219 ]
+2024-05-19 21:43:51,426 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 21:43:52,178 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 21:43:54,132 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 156.50439582428524, best pos: [0.30571095 0.37749448 0.38159291 0.29666289 0.04540141 0.08179928
+ 0.47699314 0.21789742 0.32719281 0.36666863 0.24323767 0.03186383
+ 0.47232408 0.24177314 0.05969065 0.07046061 0.39938304 0.21687444
+ 0.32326436 0.31042861 0.08712144 0.15105719 0.3840554  0.34083656
+ 0.25353499 0.3737211  0.27727873 0.36904376 0.25071415 0.31872412
+ 0.3998435  0.32093074 0.17915623 0.06573935 0.37471011 0.39946266
+ 0.21259868 0.39229642 0.49827525 0.3683509  0.44536545 0.02819396
+ 0.21508613 0.15098096 0.18687531 0.23598457 0.12382372 0.13213508]
+2024-05-19 21:45:20,388 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 21:45:21,115 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 21:45:22,943 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 171.32611773309335, best pos: [0.25644254 0.291968   0.23170968 0.1245158  0.35830722 0.19703874
+ 0.40636591 0.33116476 0.07883247 0.26969975 0.38932112 0.45405172
+ 0.2692988  0.42588609 0.19549553 0.38030043 0.1009442  0.1649465
+ 0.04056576 0.07414602 0.30885362 0.34163998 0.08313959 0.05379361
+ 0.29093134 0.35300665 0.09455924 0.13559003 0.31351843 0.41375015
+ 0.18179329 0.42294392 0.44902152 0.30395664 0.21030669 0.48450121
+ 0.32467651 0.3423442  0.44725691 0.25523895 0.09328408 0.21111125
+ 0.44379836 0.3607639  0.22658081 0.20453743 0.11594628 0.21047864]
+2024-05-19 21:45:48,370 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 21:45:49,170 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 21:45:51,279 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 155.77944444583198, best pos: [0.40189862 0.03741363 0.0682428  0.34308593 0.26476004 0.22878293
+ 0.48233281 0.47293    0.00724687 0.33743181 0.2244719  0.35173112
+ 0.06714728 0.02662696 0.10722298 0.10049894 0.084651   0.39994474
+ 0.22920951 0.26256914 0.25206622 0.14075453 0.3883708  0.20984487
+ 0.11038591 0.10065202 0.3597624  0.0742303  0.3431002  0.1745677
+ 0.14434628 0.42159267 0.38779658 0.21583236 0.2255047  0.06961385
+ 0.13718516 0.25256095 0.1357541  0.1986037  0.01892414 0.20380652
+ 0.17544302 0.24246965 0.32755148 0.41326944 0.23843043 0.13265   ]
+2024-05-19 21:46:45,184 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 21:46:45,865 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 21:46:47,672 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 155.61224404633327, best pos: [0.14035442 0.40634298 0.39898211 0.40014499 0.22152016 0.24557416
+ 0.09579    0.06040636 0.03008624 0.18016615 0.33894339 0.43280697
+ 0.22905391 0.20169212 0.39997998 0.37110211 0.47393748 0.23583855
+ 0.21199695 0.24669012 0.25094391 0.09975394 0.15497738 0.19416491
+ 0.17748079 0.47663384 0.09358632 0.44881006 0.15840386 0.32989467
+ 0.42082548 0.10293556 0.01767559 0.3762305  0.38862533 0.30134391
+ 0.28489715 0.12542458 0.34185744 0.21681266 0.33787062 0.26099814
+ 0.24523977 0.08323189 0.34559539 0.20480411 0.20148107 0.33951588]
+2024-05-19 21:47:48,138 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 21:47:48,928 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 21:47:50,675 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 167.5086010846669, best pos: [0.08907138 0.11463427 0.06345031 0.00426141 0.06375917 0.47254687
+ 0.18282387 0.26491158 0.21249421 0.08678891 0.20392507 0.36609925
+ 0.0651932  0.25718206 0.44046254 0.38172723 0.01476705 0.45809493
+ 0.27149373 0.42953914 0.39444742 0.43500248 0.26475431 0.33974235
+ 0.48227316 0.00498406 0.45190636 0.16826562 0.15728565 0.22966506
+ 0.21729239 0.13416465 0.41501964 0.22298824 0.47397488 0.30594724
+ 0.06650022 0.29326459 0.04984455 0.2294383  0.00830282 0.33853904
+ 0.15337486 0.13489436 0.11574028 0.08417433 0.04185029 0.18585578]
+2024-05-19 22:13:55,573 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 22:13:56,670 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 22:14:03,928 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 651.9685542986144, best pos: [0.42812752 0.02020141 0.02955201 0.24965685 0.3314236  0.33471563
+ 0.07202133 0.22317001 0.34247389 0.18794126 0.00245003 0.33576482
+ 0.16514145 0.26605018 0.04100714 0.06914444 0.25783957 0.38845206
+ 0.16936066 0.2688684  0.35355559 0.14641043 0.05818382 0.09258562
+ 0.19272278 0.13617497 0.19195053 0.00469427 0.49084822 0.00134115
+ 0.01122239 0.14227678 0.16124706 0.08387936 0.09018491 0.34253343
+ 0.31270918 0.44625763 0.25506742 0.39429347 0.12814152 0.26245897
+ 0.11184663 0.18274096 0.15975119 0.077812   0.31119944 0.03447863
+ 0.25634963 0.2779776  0.34403411 0.35929988 0.11579177 0.47188194
+ 0.32936769 0.23561302 0.40698055 0.17279582 0.03481539 0.31760186
+ 0.0465175  0.02980359 0.2392221  0.34918693 0.03283422 0.43781266
+ 0.34933794 0.19337057 0.17476629 0.15426555 0.45732477 0.15185113
+ 0.22649378 0.32840635 0.27464882 0.13169416 0.24651175 0.43557222
+ 0.29084018 0.46470052 0.33992293 0.41598101 0.23459727 0.18505063
+ 0.29304101 0.09996405 0.01048993 0.14051703 0.30314216 0.2628849
+ 0.28973611 0.2261467  0.44387314 0.39103854 0.02821498 0.09215658
+ 0.18823189 0.44594408 0.24111384 0.42778613 0.06081739 0.21069141
+ 0.36946115 0.39048544 0.25437476 0.23530426 0.32805424 0.19896751
+ 0.19532715 0.47985886 0.01360385 0.28378809 0.24719084 0.14249076
+ 0.12790374 0.25900089 0.09655467 0.19073002 0.41644315 0.07355173
+ 0.3699865  0.44358761 0.20777488 0.21993144 0.43630959 0.27225551
+ 0.1825018  0.4455821  0.33254805 0.40326946 0.05441029 0.10158193
+ 0.28371041 0.38556467 0.31059116 0.40391255 0.39057078 0.34247712
+ 0.39726354 0.17871641 0.33774272 0.0579462  0.27928566 0.08030372
+ 0.37257918 0.11636925 0.00895816 0.03594375 0.01969634 0.21373667
+ 0.05618251 0.35530064 0.2465324  0.38372673 0.37210571 0.49528731
+ 0.43545268 0.33549198 0.43745477 0.32758562 0.08025551 0.43229671
+ 0.39548655 0.28531475 0.06568543 0.37864765 0.4310899  0.3073883
+ 0.11100113 0.07386982 0.25226066 0.02575854 0.33622908 0.28545644
+ 0.1617706  0.18192456 0.01100016 0.15258014 0.06505555 0.09390188
+ 0.16950522 0.07368422 0.31509252 0.36732072 0.12824123 0.39715972
+ 0.22889399 0.04161682 0.21909443 0.06001032 0.24427703 0.36650151
+ 0.1600986  0.1809168  0.46068432 0.24438921 0.23593948 0.21529443]
+2024-05-19 22:14:27,937 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 22:14:28,705 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 22:14:30,621 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 155.27689099846904, best pos: [0.05299171 0.16401652 0.23236937 0.24946062 0.39040199 0.07438231
+ 0.25990236 0.24700995 0.13550324 0.0859593  0.47600478 0.20848352
+ 0.14171907 0.43668465 0.33933777 0.13497358 0.42725771 0.31565968
+ 0.12147982 0.18972958 0.46123416 0.38779301 0.13038096 0.12879147
+ 0.17850619 0.16401567 0.27799665 0.409749   0.29732463 0.0242623
+ 0.40604274 0.13662668 0.17046846 0.2910373  0.38970746 0.24580015
+ 0.23003116 0.2494361  0.17259686 0.02789528 0.29786171 0.44486763
+ 0.16355712 0.26236101 0.20577076 0.03504013 0.12363397 0.47888278]
+2024-05-19 22:25:23,548 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 23:57:04,048 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-19 23:57:05,204 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-19 23:57:07,229 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 659.23621061581, best pos: [0.33144526 0.61947935 0.2635314  0.02384692 0.69939719 0.23062368
+ 0.56759374 0.57608075 0.08164156 0.66852848 0.59024488 0.56272095
+ 0.72471344 0.46188416 0.4808408  0.34870216 0.29693319 0.11833373
+ 0.71908037 0.87658802 0.17154953 0.63115804 0.85966745 0.10095326
+ 0.69565879 0.09044878 0.43939726 0.65411652 0.27853412 0.90191734
+ 0.75510082 0.56008548 0.16852275 0.75690204 0.76613699 0.38291245
+ 0.37128928 0.4274088  0.49534924 0.50033098 0.76925641 0.20773917
+ 0.58478619 0.31720418 0.73875364 0.60451168 0.75539951 0.10111205]
+2024-05-20 00:04:27,732 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 00:04:57,025 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 00:05:07,093 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 00:08:05,406 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 00:09:16,366 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 00:09:41,386 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 00:12:29,761 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 00:16:37,187 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 00:18:36,840 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 08:29:16,551 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 12:00:14,320 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 12:00:15,305 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-20 12:00:18,888 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1413.779401974271, best pos: [0.13882732 0.42087624 0.60142701 0.07143403 0.74910049 0.74731289
+ 0.92445654 0.35484835 0.16726921 0.38653288 0.14968686 0.76940677
+ 0.25607125 0.31962933 0.25726955 0.03949848 0.23400503 0.98489283
+ 0.69289105 0.91596745 0.26330723 0.38969588 0.76902409 0.49613145
+ 0.87914254 0.64959662 0.55848379 0.60119117 0.50544279 0.37833569
+ 0.30780462 0.11583125 0.85144615 0.04603118 0.5188166  0.29545527
+ 0.98299902 0.55618077 0.56648382 0.21067255 0.28505773 0.5553045
+ 0.82768344 0.42756482 0.68991904 0.74985391 0.043438   0.76936459
+ 0.5121438  0.87206385 0.87235653 0.29267007 0.70254681 0.86183309
+ 0.63381205 0.7192873  0.7972557  0.15338959 0.72636717 0.20522681
+ 0.19755027 0.0598469  0.13948297 0.88590768 0.25188606 0.97276725
+ 0.42521315 0.56751667 0.5842237  0.85529548 0.52114368 0.87544078
+ 0.58593456 0.38031369 0.11769934 0.63461537 0.35617896 0.79500414
+ 0.1511173  0.04378288 0.45094718 0.01729649 0.3781718  0.17783664
+ 0.6214157  0.40183997 0.67048812 0.95200037 0.56563139 0.73983191
+ 0.56398228 0.48163657 0.82931605 0.18326421 0.80727767 0.55677856
+ 0.68835841 0.94094496]
+2024-05-20 12:05:58,810 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 12:05:59,932 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-20 12:06:03,883 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1305.0266469945434, best pos: [0.40470164 0.22427782 0.36380288 0.73044336 0.48622313 0.57242491
+ 0.41099326 0.40641766 0.15217126 0.71053875 0.59378843 0.09937161
+ 0.2297665  0.30028434 0.7223452  0.21207288 0.42756366 0.23593565
+ 0.7660604  0.01421395 0.57936027 0.97444764 0.5286572  0.69850545
+ 0.35100639 0.49963071 0.23561955 0.48651224 0.84109357 0.08694
+ 0.22724199 0.43352952 0.06684967 0.27751262 0.82314005 0.39135736
+ 0.62364274 0.583851   0.17967871 0.60804273 0.69108833 0.8012586
+ 0.71647405 0.48480211 0.83420476 0.91078053 0.18355214 0.71373831
+ 0.26530509 0.2993289  0.48312167 0.52384434 0.31120942 0.45747542
+ 0.6998925  0.24030978 0.96857399 0.6928351  0.53055476 0.18718417
+ 0.73439736 0.51347072 0.40246624 0.16738377 0.55241867 0.6785093
+ 0.5316049  0.56346824 0.23702724 0.91090987 0.21275566 0.88199851
+ 0.32947718 0.65259303 0.20232839 0.05138005 0.5376959  0.14257836
+ 0.01884548 0.39520833 0.66857798 0.12955107 0.86695399 0.04162032
+ 0.26501361 0.39241363 0.97354375 0.90266625 0.83025931 0.05024468
+ 0.17075353 0.37894768 0.36377975 0.37347565 0.41545814 0.25569434
+ 0.28820484 0.73018174]
+2024-05-20 12:26:47,045 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 12:26:47,844 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-20 12:26:49,675 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 592.8970449278953, best pos: [0.28758744 0.1121663  0.67655302 0.27427317 0.50927872 0.82522581
+ 0.73833216 0.3626593  0.46461227 0.12356702 0.94294342 0.76352477
+ 0.90337735 0.26678735 0.30884979 0.23148137 0.65412912 0.2482651
+ 0.68035679 0.32837324 0.91720889 0.34041765 0.67630085 0.35191111
+ 0.40978095 0.91128969 0.13419352 0.26690126 0.68660323 0.25083423
+ 0.22776634 0.66796618 0.62669672 0.45560215 0.37815543 0.54012594
+ 0.65834036 0.06194849 0.5420461  0.51236638 0.72319797 0.05835171
+ 0.52480111 0.40419943 0.20688207 0.54678782 0.53766848 0.26673909]
+2024-05-20 12:31:45,887 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 12:31:46,737 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-20 12:31:50,111 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1317.4834975843046, best pos: [3.77936875e-01 4.06332785e-01 2.85636517e-01 5.05130472e-01
+ 2.63411932e-01 7.18771287e-02 5.91681028e-01 6.18143747e-01
+ 7.06634622e-01 6.58388783e-01 5.40370901e-01 6.93735747e-01
+ 3.08037006e-01 5.26107022e-01 7.39611026e-01 1.98985555e-01
+ 2.33453273e-01 8.73329598e-01 4.63584396e-01 8.10860150e-01
+ 4.47333169e-01 7.21416500e-01 5.15095617e-01 3.41949571e-01
+ 3.02242022e-01 8.98469857e-02 6.12763960e-01 1.25675636e-01
+ 4.10980512e-01 3.28504340e-01 1.90284751e-01 6.74300887e-01
+ 8.08593144e-01 6.72779429e-01 4.82910045e-01 7.51509262e-01
+ 9.46864446e-01 6.94999615e-01 4.49804372e-01 7.42409232e-01
+ 3.32109257e-01 2.55571315e-01 5.33087806e-01 8.92298929e-01
+ 3.20929765e-01 4.92819858e-01 3.31401172e-01 8.02017392e-02
+ 2.30867145e-01 2.39939700e-01 4.09829780e-01 5.18464305e-02
+ 3.86692438e-01 2.29579267e-01 8.32515524e-01 2.61382833e-01
+ 6.28296000e-01 9.67474446e-01 6.28635321e-01 1.37200931e-01
+ 4.68951958e-02 3.42005449e-01 9.13227688e-01 6.39979500e-02
+ 5.68757491e-01 9.56340927e-01 4.52276352e-01 8.49129538e-04
+ 6.74274948e-02 7.99800938e-01 5.74482739e-01 3.06994470e-01
+ 5.35124431e-01 5.79077121e-01 5.91989525e-01 9.26921092e-01
+ 3.39126981e-01 6.23474493e-01 5.07931395e-01 1.84371058e-01
+ 3.99732087e-02 1.58734705e-01 1.77294994e-01 6.23523216e-01
+ 4.12161065e-01 8.49737548e-01 8.73143436e-01 5.65074875e-01
+ 7.04364614e-01 1.96362818e-01 3.54682538e-02 6.40662409e-01
+ 9.17123182e-01 1.73694415e-01 6.12593917e-01 3.11338691e-01
+ 9.90724079e-01 6.86338828e-01]
+2024-05-20 12:42:07,738 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 12:42:08,821 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-20 12:42:12,488 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1346.285012546063, best pos: [0.69626435 0.19764699 0.92974385 0.67530154 0.56161899 0.53180519
+ 0.74512331 0.89914033 0.07895072 0.34731625 0.21846615 0.33024732
+ 0.01448221 0.12855065 0.8308221  0.42953702 0.2959522  0.64011604
+ 0.78760589 0.11629685 0.33197164 0.52985407 0.91711574 0.95233495
+ 0.10258373 0.20679388 0.64913275 0.65336488 0.59309466 0.69385628
+ 0.70646691 0.83690231 0.09085    0.33027409 0.15965431 0.55591822
+ 0.62185168 0.75595232 0.5419352  0.17289804 0.71935338 0.39860919
+ 0.09134038 0.02442817 0.07984219 0.20562475 0.23247196 0.34224048
+ 0.46218134 0.31660834 0.79344576 0.35058275 0.89304175 0.44171328
+ 0.36947009 0.80611101 0.12139008 0.24179467 0.85899608 0.18996938
+ 0.91722049 0.44532118 0.65346323 0.50869098 0.16245623 0.76137179
+ 0.12350662 0.81826693 0.04765823 0.0752678  0.14931252 0.49428849
+ 0.725468   0.03219687 0.8746927  0.66124099 0.5148001  0.63634049
+ 0.43645653 0.46495083 0.82510056 0.80062817 0.59104917 0.26294262
+ 0.24623474 0.66379617 0.46846244 0.44651387 0.14678202 0.38239942
+ 0.55363352 0.52754227 0.05751672 0.83986354 0.66637457 0.39529646
+ 0.97682837 0.14444475]
+2024-05-20 12:47:41,710 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 12:47:42,491 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-20 12:47:45,865 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1213.6826058185948, best pos: [0.3450842  0.2959408  0.15476891 0.47983558 0.18974661 0.47767207
+ 0.53076993 0.08744084 0.4544814  0.98498265 0.1175655  0.51511792
+ 0.48579373 0.6432508  0.77745333 0.05408812 0.046551   0.69850377
+ 0.35682429 0.86454484 0.37843666 0.27636942 0.51074369 0.19407347
+ 0.52194829 0.48660434 0.39975602 0.14985411 0.9944627  0.57456648
+ 0.14124081 0.30501112 0.54535105 0.2374009  0.87070456 0.92249668
+ 0.34317919 0.36656775 0.07702641 0.20887795 0.91151836 0.45522914
+ 0.72222082 0.31388138 0.13711219 0.62445062 0.73778684 0.83557649
+ 0.11099856 0.71618874 0.88149673 0.50107097 0.5871316  0.13584476
+ 0.32275317 0.15917808 0.79582548 0.81872598 0.24157925 0.11959747
+ 0.39221328 0.80616601 0.5647553  0.94845675 0.46346272 0.58916035
+ 0.41992974 0.62690387 0.07305779 0.41130234 0.42090342 0.39269522
+ 0.35581607 0.46703944 0.5449907  0.63290372 0.7925521  0.8432598
+ 0.48812039 0.435359   0.39822065 0.48459583 0.32781949 0.73176113
+ 0.55208285 0.05890465 0.89479012 0.6915917  0.52502292 0.33658725
+ 0.50603562 0.54853097 0.39516187 0.7569338  0.21609339 0.9428901
+ 0.61577373 0.03705749]
+2024-05-20 22:45:45,852 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 23:23:34,591 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 23:34:47,119 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 23:43:56,671 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 23:55:04,096 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 23:55:04,926 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-20 23:55:10,201 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1320.3571986555585, best pos: [0.91228256 0.82537879 0.61484396 0.22949195 0.13075185 0.00357015
+ 0.44940668 0.51692962 0.47846579 0.70426171 0.63284894 0.70398847
+ 0.07339399 0.50957527 0.37680829 0.48391112 0.53412147 0.99635702
+ 0.078793   0.94481819 0.75468671 0.14917153 0.6742497  0.07354351
+ 0.94640621 0.37813165 0.69222433 0.04787225 0.14309075 0.46777439
+ 0.08007243 0.20035184 0.69981793 0.34441807 0.65729255 0.61819357
+ 0.55592999 0.76300028 0.94936366 0.35182398 0.01766655 0.84593603
+ 0.20218671 0.83511875 0.97200883 0.58228188 0.04468352 0.19072128
+ 0.88047277 0.43114443 0.37599669 0.21092963 0.86901858 0.95154435
+ 0.6303101  0.04762584 0.7510814  0.38985852 0.76557324 0.69259811
+ 0.32788913 0.52120587 0.02175487 0.62867279 0.96788577 0.55065777
+ 0.65770976 0.14556856 0.11326061 0.41735306 0.20097793 0.65705548
+ 0.22131984 0.56985231 0.53038114 0.39268404 0.21844355 0.75269576
+ 0.54964048 0.59766667 0.12004895 0.52237702 0.07792373 0.33569375
+ 0.2463848  0.52582759 0.7440728  0.47893316 0.15661106 0.19235757
+ 0.48464126 0.91943364 0.48343436 0.70126724 0.23663944 0.32898223
+ 0.55947886 0.79443675]
+2024-05-20 23:55:42,618 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 23:55:43,442 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-20 23:55:48,539 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1301.2701903706661, best pos: [0.78886793 0.14773738 0.66102697 0.45357872 0.13021467 0.18126739
+ 0.31347749 0.94417431 0.43986981 0.94311654 0.79621711 0.60528671
+ 0.11592622 0.09030774 0.59798168 0.8104139  0.99400917 0.82834196
+ 0.0695117  0.50841481 0.93183533 0.20513084 0.21177696 0.42235978
+ 0.36492199 0.15334535 0.40732851 0.38287432 0.93777732 0.75278542
+ 0.68424568 0.65040122 0.45553436 0.14759884 0.29992985 0.08444192
+ 0.3301215  0.10215234 0.17276523 0.27235316 0.57471053 0.92494356
+ 0.67912938 0.51854004 0.38243572 0.2429318  0.97360701 0.64179755
+ 0.48186349 0.12674619 0.06836432 0.8849322  0.13385998 0.74747599
+ 0.59107462 0.47125295 0.02286509 0.85226947 0.88616317 0.58807277
+ 0.4577736  0.50923844 0.80034749 0.07940269 0.40583746 0.00148678
+ 0.04859043 0.58566876 0.74479386 0.09266761 0.19855731 0.3165549
+ 0.49976947 0.74328059 0.58340522 0.438741   0.44229558 0.86399336
+ 0.48983172 0.6345562  0.52695208 0.64782995 0.36501971 0.97137469
+ 0.98594727 0.91875447 0.93143206 0.10422908 0.98627524 0.770023
+ 0.80015841 0.57445139 0.25851382 0.83230461 0.80141369 0.58909233
+ 0.09010731 0.5903472 ]
+2024-05-20 23:57:29,397 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-20 23:59:23,936 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 10:31:36,790 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 10:33:56,366 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 10:43:06,087 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 11:06:08,931 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 11:19:24,569 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 11:22:39,837 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 11:26:22,264 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 11:37:10,928 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 15:08:04,824 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 17:26:24,650 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 17:56:22,659 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-21 17:56:23,519 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-21 17:56:24,822 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 220.25323558726214, best pos: [0.54154692 0.54327284 0.49747425 0.09106768 0.51719886 0.65555096
+ 0.33837015 0.19406362 0.24752334 0.24305959 0.76341401 0.31073972
+ 0.65042317 0.2093026  0.30800545 0.5330382  0.72492717 0.3074137 ]
+2024-05-22 02:08:00,738 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-22 02:08:01,510 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-22 02:08:02,666 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 234.7184359288264, best pos: [0.85161361 0.6310399  0.82842067 0.46348686 0.51633603 0.36152595
+ 0.76471769 0.60501104 0.59575738 0.22411326 0.49868591 0.39559442
+ 0.60735177 0.52139663 0.13206125 0.56834073 0.75864295 0.42560055]
+2024-05-22 13:46:19,949 - pygad.pygad - ERROR - Error creating the initial population:
+
+When the parameter 'initial_population' is None, then the 2 parameters 'sol_per_pop' and 'num_genes' cannot be None too.
+There are 2 options to prepare the initial population:
+1) Assinging the initial population to the 'initial_population' parameter. In this case, the values of the 2 parameters sol_per_pop and num_genes will be deduced.
+2) Assign integer values to the 'sol_per_pop' and 'num_genes' parameters so that PyGAD can create the initial population automatically.
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 413, in __init__
+    raise TypeError("Error creating the initial population:\n\nWhen the parameter 'initial_population' is None, then the 2 parameters 'sol_per_pop' and 'num_genes' cannot be None too.\nThere are 2 options to prepare the initial population:\n1) Assinging the initial population to the 'initial_population' parameter. In this case, the values of the 2 parameters sol_per_pop and num_genes will be deduced.\n2) Assign integer values to the 'sol_per_pop' and 'num_genes' parameters so that PyGAD can create the initial population automatically.")
+TypeError: Error creating the initial population:
+
+When the parameter 'initial_population' is None, then the 2 parameters 'sol_per_pop' and 'num_genes' cannot be None too.
+There are 2 options to prepare the initial population:
+1) Assinging the initial population to the 'initial_population' parameter. In this case, the values of the 2 parameters sol_per_pop and num_genes will be deduced.
+2) Assign integer values to the 'sol_per_pop' and 'num_genes' parameters so that PyGAD can create the initial population automatically.
+2024-05-22 13:48:36,197 - pygad.pygad - ERROR - The number of parents to select for mating (3) cannot be greater than the number of solutions in the population (1) (i.e., num_parents_mating must always be <= sol_per_pop).
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 573, in __init__
+    raise ValueError(f"The number of parents to select for mating ({num_parents_mating}) cannot be greater than the number of solutions in the population ({self.sol_per_pop}) (i.e., num_parents_mating must always be <= sol_per_pop).\n")
+ValueError: The number of parents to select for mating (3) cannot be greater than the number of solutions in the population (1) (i.e., num_parents_mating must always be <= sol_per_pop).
+
+2024-05-22 13:49:08,730 - pygad.pygad - ERROR - The value assigned to the 'initial_population' parameter is expected to by of type list, tuple, or ndarray but <class 'int'> found.
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 445, in __init__
+    raise TypeError(f"The value assigned to the 'initial_population' parameter is expected to by of type list, tuple, or ndarray but {type(initial_population)} found.")
+TypeError: The value assigned to the 'initial_population' parameter is expected to by of type list, tuple, or ndarray but <class 'int'> found.
+2024-05-22 13:50:01,566 - pygad.pygad - ERROR - A 2D list is expected to the initial_population parameter but a (1-D) list found.
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 448, in __init__
+    raise ValueError(f"A 2D list is expected to the initial_population parameter but a ({numpy.array(initial_population).ndim}-D) list found.")
+ValueError: A 2D list is expected to the initial_population parameter but a (1-D) list found.
+2024-05-22 16:35:06,806 - pygad.pygad - ERROR - name 'lower' is not defined
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_16636\2664529117.py", line 2, in fitness_func
+    if any(i < lower or i > upper_limit for i in solution):  # Restricción de límites
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_16636\2664529117.py", line 2, in <genexpr>
+    if any(i < lower or i > upper_limit for i in solution):  # Restricción de límites
+               ^^^^^
+NameError: name 'lower' is not defined
+2024-05-22 16:35:06,814 - pygad.pygad - ERROR - name 'lower' is not defined
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1914, in run
+    self.last_generation_fitness = self.cal_pop_fitness()
+                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1871, in cal_pop_fitness
+    raise ex
+  File "c:\Users\ismag\anaconda3\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_16636\2664529117.py", line 2, in fitness_func
+    if any(i < lower or i > upper_limit for i in solution):  # Restricción de límites
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismag\AppData\Local\Temp\ipykernel_16636\2664529117.py", line 2, in <genexpr>
+    if any(i < lower or i > upper_limit for i in solution):  # Restricción de límites
+               ^^^^^
+NameError: name 'lower' is not defined
+2024-05-22 16:39:03,903 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-22 16:39:05,565 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 214.00264527230402, best pos: [0.29844818 0.12022212 0.43982348 0.32598717 0.05476422 0.26058546
+ 0.25671457 0.45197375 0.82042048 0.75909162 0.33616197 0.62568365
+ 0.54315048 0.10696898 0.46134626 0.45917139 0.66198079 0.74257855]
+2024-05-22 16:55:54,646 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-22 16:55:56,301 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 267.2957561565161, best pos: [0.47344971 0.52429308 0.81647598 0.15693896 0.16714612 0.99732362
+ 0.02995115 0.29104426 0.63559063 0.18383547 0.40259309 0.77276626
+ 0.47462384 0.90947599 0.33387613 0.61078338 0.0393675  0.82894021]
+2024-05-22 16:56:28,164 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 16:56:30,094 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 267.839867482972, best pos: [0.44230955 0.4484047  0.49330303 0.16351544 0.57727039 0.34748757
+ 0.20243528 0.35295941 0.24384064 0.21482418 0.33343302 0.46258432
+ 0.25389928 0.73211976 0.81491018 0.69135084 0.04590383 0.25425877]
+2024-05-22 16:56:36,117 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 16:56:55,482 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 260.3956259116024, best pos: [0.43270991 0.28792039 0.66948726 0.59799127 0.06539116 0.11068745
+ 0.7956974  0.37268804 0.99215082 0.13817038 0.68210454 0.38418109
+ 0.14533123 0.32474746 0.51095488 0.69070214 0.63771186 0.31807374]
+2024-05-22 16:57:06,064 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 16:57:24,722 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 253.42156728220894, best pos: [0.33611482 0.22809361 0.37940079 0.70391339 0.6861105  0.53095046
+ 0.53388791 0.37158278 0.42802441 0.36695774 0.0726116  0.385495
+ 0.31546614 0.33544194 0.51576567 0.28384197 0.42399951 0.00562032]
+2024-05-22 16:57:33,690 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 16:58:46,730 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:00:47,941 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:00:49,065 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 131.84716381423837, best pos: [0.97388348 0.78890978 0.60546195 0.78515949 0.4315817  0.73812729
+ 0.66377405 0.69907875 0.31751234 0.97249218 0.98943928 0.21179802
+ 0.13549362 0.43756801 0.00733044 0.67272398 0.61311304 0.86103965]
+2024-05-22 17:01:21,085 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:01:46,601 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 431.96537142312707, best pos: [0.51953965 0.87685868 0.76207227 0.73380709 0.50437764 0.57554421
+ 0.58110017 0.28266866 0.02108931 0.42044827 0.09129876 0.50188666
+ 0.31557775 0.31007241 0.93361754 0.38674495 0.02545387 0.48068697
+ 0.95610144 0.76532336 0.27964089 0.31263725 0.64864966 0.72910715
+ 0.39129239 0.33878259 0.44515991 0.83917566 0.47024666 0.42921274
+ 0.18862945 0.61631249 0.16058296 0.6146493  0.68435511 0.60174521
+ 0.83583019 0.69145435 0.63752555 0.46684511 0.67961256 0.67981974
+ 0.3828563  0.16609854 0.21384731 0.43732181 0.5390395  0.18413041
+ 0.23165158 0.67052307 0.58826165 0.03335312 0.57795722 0.98215637
+ 0.57568042 0.50709214 0.64325284 0.09579417 0.31908525 0.83596198
+ 0.71122198 0.48554693 0.70335722 0.88793235 0.83488683 0.51915891
+ 0.34253314 0.37238213 0.81118299 0.75108283 0.47294331 0.2153857
+ 0.76039496 0.90487551 0.39600711 0.05233687 0.41872619 0.53567117
+ 0.71731128 0.14913441 0.47244736 0.7084661  0.88061402 0.47992845
+ 0.18844545 0.4196077  0.55040916 0.79890685 0.68323287 0.01471261
+ 0.48475886 0.54676724 0.08254324 0.369524   0.72927445 0.63665289
+ 0.41861848 0.19550676]
+2024-05-22 17:02:04,833 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:02:11,483 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 38.76972268455416, best pos: [0.20635607 0.34485024 0.8318157  0.15874467 0.1403545  0.64748673
+ 0.07953752 0.35793132 0.1158997  0.14978108 0.20493409 0.47709816
+ 0.84920962 0.54400012 0.29449379 0.89025687 0.60653399 0.63801589
+ 0.03999436 0.87375858 0.03957334 0.92690654 0.17556334 0.31842077
+ 0.71535962 0.54734337 0.96787235 0.88241822 0.17760007 0.86617044
+ 0.22363699 0.58502248 0.63818745 0.14832809 0.21916127 0.46570179
+ 0.4484533  0.5073763  0.53491387 0.88550456 0.41442373 0.21076849
+ 0.55587433 0.77541778 0.15663316 0.07029365 0.09136828 0.5718252
+ 0.75670149 0.65501909 0.3812544  0.46264687 0.63212622 0.64629517
+ 0.13154984 0.48703867 0.54057915 0.99857106 0.39986634 0.42272257
+ 0.4983511  0.40251545 0.01035023 0.55931094 0.79442478 0.16878122
+ 0.25131447 0.13447335 0.52942391 0.0275259  0.10296875 0.12594142
+ 0.16316288 0.22599662 0.87342844 0.59961966 0.76692291 0.69203586
+ 0.45790763 0.42365386 0.51391512 0.33868065 0.42072671 0.15030165
+ 0.48463277 0.53208642 0.61369266 0.31067328 0.34025268 0.36524187
+ 0.33230971 0.0169245  0.613608   0.01841932 0.17726351 0.26486006
+ 0.22752477 0.29341731]
+2024-05-22 17:02:44,879 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:02:49,062 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 2.271867576748067, best pos: [8.27012242e-01 9.33299396e-01 8.06957289e-01 5.10447612e-04
+ 5.23505195e-01 3.89856006e-01 5.05883989e-01 1.86796411e-01]
+2024-05-22 17:03:00,151 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:03:05,207 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 8.635395436281796, best pos: [0.69457361 0.07706386 0.39246203 0.06753244 0.60783651 0.52846453
+ 0.38685025 0.22345422]
+2024-05-22 17:03:23,922 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:03:30,194 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 30.338006651043376, best pos: [0.97621493 0.92795841 0.88707458 0.60570593 0.65631    0.86258722
+ 0.88568264 0.36342912]
+2024-05-22 17:05:15,541 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:05:21,049 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -2.514631116010873e+72, best pos: [-9.81287673  0.06962669 -1.12293879  1.12941097 -0.23127624  0.15217239
+  6.72021263 -6.73921459]
+2024-05-22 17:05:38,945 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:06:06,725 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:06:12,479 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -4.379298843481341e+131, best pos: [-9.81287673  0.06962669 -1.12293879  1.12941097 -0.23127624  0.15217239
+  6.72021263 -6.73921459]
+2024-05-22 17:06:25,864 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:06:53,073 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:06:59,854 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:07:26,844 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:07:32,621 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -1.5756619352016194e+63, best pos: [-69.44431127   0.97500835  -0.64311338   0.34297149  -0.20642708
+   0.98847087   0.27025535   0.10076886]
+2024-05-22 17:08:02,467 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:08:21,815 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:08:22,364 - pyswarms.single.global_best - INFO - Optimization finished | best cost: -1.3408092809779227e+70, best pos: [-69.44431127   0.97500835  -0.64311338   0.34297149  -0.20642708
+   0.98847087   0.27025535   0.10076886]
+2024-05-22 17:09:12,796 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:09:49,250 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:10:14,688 - pyswarms.single.global_best - INFO - Optimize for 100 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:10:15,310 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 34.01526113393113, best pos: [0.31616572 0.28317641 0.30663724 0.77502801 0.71143482 0.86569726
+ 0.79706431 0.32811533]
+2024-05-22 17:10:22,827 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:10:28,309 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 31.639770344284578, best pos: [0.78001911 0.2743984  0.26459721 0.23184331 0.64335973 0.88973668
+ 0.72188022 0.85077811]
+2024-05-22 17:11:11,260 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 1.5, 'c2': 2, 'w': 0.9}
+2024-05-22 17:11:17,872 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 73.38651545732043, best pos: [0.82622749 0.54387355 0.62727507 0.81447982 0.1691266  0.7529621
+ 0.38338641 0.72473752 0.6196758  0.41104097 0.62334431 0.42963653
+ 0.72429455 0.96355063 0.77327288 0.49802488 0.17004765 0.55066896]
+2024-05-22 17:11:30,795 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:11:38,392 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 78.02545142195439, best pos: [0.60269721 0.55169086 0.35785427 0.53034588 0.71114753 0.37486767
+ 0.6266709  0.39259869 0.38305093 0.29096932 0.71082896 0.32047393
+ 0.03216473 0.466483   0.64318648 0.78067873 0.12527065 0.23730388]
+2024-05-22 17:11:46,991 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:11:57,166 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 133.5248489826022, best pos: [0.86540771 0.89251542 0.55204598 0.48348917 0.44005009 0.71913667
+ 0.22842055 0.2590087  0.95131487 0.05724606 0.60946448 0.53442396
+ 0.72989704 0.14892376 0.59788169 0.45866489 0.79727531 0.19810306]
+2024-05-22 17:13:59,058 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:13:59,086 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 149.4860482824667, best pos: [0.94915026 0.49448362 0.58426467 0.23570188 0.25463218 0.73627938
+ 0.56037404 0.27634302 0.14361439 0.37452668 0.34386278 0.14250654
+ 0.37241455 0.77829711 0.24751282 0.9302324  0.23839469 0.01774135]
+2024-05-22 17:14:01,074 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:01,103 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 149.4860482824667, best pos: [0.14545851 0.71457373 0.91013083 0.96223608 0.67285372 0.05147058
+ 0.32946891 0.92895504 0.56248559 0.66579329 0.89545545 0.48309768
+ 0.20152817 0.54398642 0.55201593 0.79106263 0.4377469  0.02701546]
+2024-05-22 17:14:01,722 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:01,758 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 149.4860482824667, best pos: [0.71312616 0.21600373 0.08352237 0.40253466 0.00164321 0.88698773
+ 0.72064994 0.7702912  0.66242604 0.11511355 0.36555581 0.35617176
+ 0.15925418 0.87749069 0.69606624 0.011225   0.04895085 0.01125298]
+2024-05-22 17:14:02,201 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:02,231 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 149.4860482824667, best pos: [0.71312616 0.21600373 0.08352237 0.40253466 0.00164321 0.88698773
+ 0.72064994 0.7702912  0.66242604 0.11511355 0.36555581 0.35617176
+ 0.15925418 0.87749069 0.69606624 0.011225   0.04895085 0.01125298]
+2024-05-22 17:14:02,589 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:02,617 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 149.4860482824667, best pos: [0.80499576 0.26110824 0.11047751 0.41079645 0.83243209 0.30058271
+ 0.11346299 0.1656759  0.27693954 0.40420275 0.09893536 0.87950964
+ 0.71837438 0.94273996 0.9198705  0.31316298 0.82187492 0.00706977]
+2024-05-22 17:14:02,984 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:03,014 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 149.4860482824667, best pos: [0.14745656 0.33206295 0.05560818 0.50802662 0.34750893 0.81393874
+ 0.34741487 0.79009709 0.66555202 0.62746034 0.1540338  0.23423254
+ 0.79065141 0.63136685 0.19275208 0.2354264  0.85582244 0.02579323]
+2024-05-22 17:14:03,442 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:03,483 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 143.0670126990858, best pos: [0.48839307 0.62675433 0.46784673 0.16130821 0.82136439 0.49646926
+ 0.54123452 0.49890574 0.81959428 0.43373237 0.79370884 0.98708201
+ 0.48437502 0.48222572 0.36732594 0.09702144 0.04457396 0.03817903]
+2024-05-22 17:14:04,034 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:04,065 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 143.0670126990858, best pos: [0.03703476 0.75075405 0.26290581 0.28944799 0.2799988  0.1947629
+ 0.45547167 0.11923101 0.24548324 0.35159217 0.84267595 0.23099399
+ 0.99137963 0.38762796 0.51214536 0.65239372 0.30581629 0.03958905]
+2024-05-22 17:14:04,584 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:04,618 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 143.0670126990858, best pos: [0.07603458 0.61526108 0.88996987 0.31660801 0.665561   0.80059662
+ 0.39378159 0.9527485  0.82349466 0.4850177  0.62396041 0.95358899
+ 0.73033468 0.31461402 0.60554158 0.58370057 0.06142658 0.03753086]
+2024-05-22 17:14:16,654 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:16,701 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 146.37257541472474, best pos: [0.52395024 0.85103771 0.96060304 0.61789399 0.18116779 0.82004276
+ 0.60290032 0.04623037 0.34587914 0.19503875 0.04824656 0.54635155
+ 0.28558793 0.85826187 0.95041085 0.73727398 0.9193559  0.30169129]
+2024-05-22 17:14:17,520 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:17,550 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 146.37257541472474, best pos: [0.2128355  0.48997873 0.66768898 0.89552313 0.76705098 0.91015629
+ 0.06051426 0.34149647 0.41398149 0.61035148 0.572117   0.9727822
+ 0.49727373 0.32638027 0.96457008 0.92646942 0.69527592 0.61429264]
+2024-05-22 17:14:18,046 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:18,073 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 146.37257541472474, best pos: [0.0764148  0.42857929 0.51309736 0.85212675 0.89914194 0.78057408
+ 0.08484626 0.24474431 0.42217016 0.96300631 0.77171626 0.30484321
+ 0.18473758 0.06498603 0.9549807  0.06982082 0.64491197 0.14290772]
+2024-05-22 17:14:18,404 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:18,434 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 146.37257541472474, best pos: [0.55501299 0.09832409 0.47130327 0.74231136 0.45340038 0.86681462
+ 0.29724327 0.53842713 0.30978883 0.03531343 0.37207458 0.31407943
+ 0.42584081 0.27490697 0.94282963 0.26645319 0.05302521 0.01572183]
+2024-05-22 17:14:18,798 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:18,823 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 146.37257541472474, best pos: [0.58872282 0.85439624 0.7080337  0.09967217 0.2977931  0.94723487
+ 0.60555174 0.96200123 0.36675759 0.43045356 0.59308786 0.68614335
+ 0.35785545 0.25880484 0.94616656 0.09079324 0.33790866 0.64903127]
+2024-05-22 17:14:19,263 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:19,292 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 146.37257541472474, best pos: [0.58872282 0.85439624 0.7080337  0.09967217 0.2977931  0.94723487
+ 0.60555174 0.96200123 0.36675759 0.43045356 0.59308786 0.68614335
+ 0.35785545 0.25880484 0.94616656 0.09079324 0.33790866 0.64903127]
+2024-05-22 17:14:28,242 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:14:28,277 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 149.54943063699997, best pos: [0.40469143 0.14026312 0.83008555 0.61760125 0.13270405 0.1536655
+ 0.65904087 0.49748655 0.1069936  0.92700804 0.5534763  0.01798797
+ 0.98620556 0.7805457  0.69211665 0.98501394 0.29706419 0.72682065]
+2024-05-22 17:14:40,581 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.9}
+2024-05-22 17:16:09,494 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-22 17:16:09,524 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 149.15629190939075, best pos: [0.25369144 0.08934409 0.80104476 0.8049582  0.96203576 0.44597724
+ 0.83541216 0.12738543 0.84788853 0.25328991 0.3052454  0.25849655
+ 0.82182986 0.72194975 0.56567301 0.50307054 0.83460102 0.6586908 ]
+2024-05-22 17:20:15,587 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-22 17:25:09,599 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2, 'w': 0.4}
+2024-05-22 17:26:16,501 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2, 'w': 0.4}
+2024-05-22 17:27:03,567 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 2, 'c2': 2, 'w': 0.4}
+2024-05-22 17:27:14,592 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.00000000000001, best pos: [0.11300819 0.78702875 0.68640253 0.68678406 0.36184916 0.24093354
+ 0.17177656 0.19916775 0.59581915 0.64206602 0.38719185 0.22825968
+ 0.53838159 0.83237095 0.40927025 0.316079   0.46696221 0.94454677]
+2024-05-22 17:27:36,226 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 2, 'c2': 2, 'w': 0.4}
+2024-05-22 17:27:47,935 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.00000000000001, best pos: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+2024-05-22 17:33:13,973 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 2, 'c2': 2, 'w': 0.4, 'k': 30, 'p': 1}
+2024-05-22 17:33:22,623 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 1.00000000000001, best pos: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+2024-05-22 17:33:37,223 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 2, 'c2': 2, 'w': 0.4, 'k': 30, 'p': 1}
+2024-05-22 17:33:47,458 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 108.95642673927031, best pos: [0.94694939 0.28486715 0.63739614 0.44452177 0.51442781 0.31689118
+ 0.1738846  0.93326491 0.18740848 0.91822573 0.34205642 0.49975114
+ 0.71704854 0.80770022 0.613695   0.31865611 0.38229317 0.37427183]
+2024-05-22 17:33:55,882 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 2.5, 'c2': 2, 'w': 0.4, 'k': 30, 'p': 1}
+2024-05-22 17:33:57,031 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 2.5, 'c2': 2, 'w': 0.4, 'k': 30, 'p': 1}
+2024-05-22 17:34:06,518 - pyswarms.single.global_best - INFO - Optimization finished | best cost: 110.95200321666158, best pos: [0.90663121 0.34852693 0.38384117 0.62941798 0.72860302 0.39284432
+ 0.27089609 0.80663937 0.75177994 0.21652094 0.14760842 0.20348992
+ 0.36709782 0.49225108 0.45363947 0.75378994 0.38331353 0.52165432]
+2024-05-22 17:34:38,883 - pyswarms.single.global_best - INFO - Optimize for 1000 iters with {'c1': 2.5, 'c2': 2, 'w': 0.4, 'k': 10, 'p': 1}
+2024-05-22 17:34:58,144 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4, 'k': 10, 'p': 1}
+2024-05-22 19:21:10,210 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4, 'k': 10, 'p': 1}
+2024-05-25 12:03:57,775 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4, 'k': 10, 'p': 1}
+2024-05-25 12:11:33,930 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4, 'k': 10, 'p': 1}
+2024-05-26 12:53:06,739 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4, 'k': 10, 'p': 1}
+2024-05-26 12:53:38,525 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4, 'k': 10, 'p': 1}
+2024-05-26 12:55:23,013 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-26 12:55:28,435 - pyswarms.single.global_best - INFO - Optimize for 10000000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-26 12:56:44,701 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-26 12:57:19,548 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-26 12:57:23,513 - pyswarms.single.global_best - INFO - Optimize for 10000000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4}
+2024-05-26 14:01:31,863 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-26 14:01:33,193 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4, 'k': 10, 'p': 1}
+2024-05-27 12:24:41,532 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-27 12:24:42,435 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4, 'k': 10, 'p': 1}
+2024-05-27 12:28:43,504 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-27 12:28:44,084 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4, 'k': 10, 'p': 1}
+2024-05-27 12:40:23,919 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-27 14:22:07,808 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-27 14:22:08,301 - pyswarms.single.global_best - INFO - Optimize for 100000 iters with {'c1': 2, 'c2': 2.5, 'w': 0.4, 'k': 10, 'p': 1}
+2024-05-29 15:11:56,024 - pygad.pygad - ERROR - name 'vol_func' is not defined
+Traceback (most recent call last):
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismael.lopez\AppData\Local\Temp\ipykernel_8804\17841491.py", line 4, in fitness_func
+    if vol_func(solution) != 0:  # Restricción de volumen
+       ^^^^^^^^
+NameError: name 'vol_func' is not defined
+2024-05-29 15:11:56,027 - pygad.pygad - ERROR - name 'vol_func' is not defined
+Traceback (most recent call last):
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 1914, in run
+    self.last_generation_fitness = self.cal_pop_fitness()
+                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 1871, in cal_pop_fitness
+    raise ex
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismael.lopez\AppData\Local\Temp\ipykernel_8804\17841491.py", line 4, in fitness_func
+    if vol_func(solution) != 0:  # Restricción de volumen
+       ^^^^^^^^
+NameError: name 'vol_func' is not defined
+2024-05-29 15:12:03,748 - pygad.pygad - ERROR - name 'V_lig' is not defined
+Traceback (most recent call last):
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismael.lopez\AppData\Local\Temp\ipykernel_8804\17841491.py", line 4, in fitness_func
+    if vol_func(solution) != 0:  # Restricción de volumen
+       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismael.lopez\AppData\Local\Temp\ipykernel_8804\731920498.py", line 12, in vol_func
+    return (integral - V_lig)
+                       ^^^^^
+NameError: name 'V_lig' is not defined
+2024-05-29 15:12:03,751 - pygad.pygad - ERROR - name 'V_lig' is not defined
+Traceback (most recent call last):
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 1914, in run
+    self.last_generation_fitness = self.cal_pop_fitness()
+                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 1871, in cal_pop_fitness
+    raise ex
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 1708, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismael.lopez\AppData\Local\Temp\ipykernel_8804\17841491.py", line 4, in fitness_func
+    if vol_func(solution) != 0:  # Restricción de volumen
+       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ismael.lopez\AppData\Local\Temp\ipykernel_8804\731920498.py", line 12, in vol_func
+    return (integral - V_lig)
+                       ^^^^^
+NameError: name 'V_lig' is not defined
+2024-05-29 15:13:24,859 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:18:49,343 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:22:42,557 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:25:03,352 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:25:52,133 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:26:05,806 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:26:06,041 - pygad.pygad - ERROR - The plot_genes() method with solutions='all' can only be called if 'save_solutions=True' in the pygad.GA class constructor.
+2024-05-29 15:26:14,240 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:26:14,487 - pygad.pygad - ERROR - The plot_genes() method with solutions='all' can only be called if 'save_solutions=True' in the pygad.GA class constructor.
+2024-05-29 15:27:16,502 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:27:16,668 - pygad.pygad - ERROR - The plot_genes() method with solutions='all' can only be called if 'save_solutions=True' in the pygad.GA class constructor.
+2024-05-29 15:37:53,791 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:37:53,952 - pygad.pygad - ERROR - The plot_genes() method with solutions='all' can only be called if 'save_solutions=True' in the pygad.GA class constructor.
+2024-05-29 15:38:30,128 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:38:30,304 - pygad.pygad - ERROR - The plot_new_solution_rate() method works only when save_solutions=True in the constructor of the pygad.GA class.
+2024-05-29 15:38:33,424 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:38:40,944 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:38:53,670 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:39:07,591 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:40:41,046 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:40:59,989 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:41:11,510 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:41:15,126 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:41:15,745 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:41:16,041 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:41:16,778 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:41:17,175 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:41:50,590 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:41:50,895 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:42:05,393 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:42:09,496 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:42:13,430 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:42:39,146 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:42:48,640 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:42:55,728 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 15:45:03,676 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 16:19:24,239 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 16:27:38,452 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 16:28:41,115 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 16:29:27,193 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 16:30:06,465 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 19:39:33,067 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-29 19:47:10,809 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-30 20:49:14,059 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-30 20:58:40,796 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-30 21:37:50,329 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-31 00:04:26,130 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-31 10:08:14,452 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-31 10:19:38,404 - pygad.pygad - ERROR - A 2D list is expected to the initial_population parameter but a (1-D) list found.
+Traceback (most recent call last):
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 448, in __init__
+    raise ValueError(f"A 2D list is expected to the initial_population parameter but a ({numpy.array(initial_population).ndim}-D) list found.")
+ValueError: A 2D list is expected to the initial_population parameter but a (1-D) list found.
+2024-05-31 10:20:57,406 - pygad.pygad - ERROR - A 2D list is expected to the initial_population parameter but a (1-D) list found.
+Traceback (most recent call last):
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 448, in __init__
+    raise ValueError(f"A 2D list is expected to the initial_population parameter but a ({numpy.array(initial_population).ndim}-D) list found.")
+ValueError: A 2D list is expected to the initial_population parameter but a (1-D) list found.
+2024-05-31 10:21:21,268 - pygad.pygad - ERROR - A 2D list is expected to the initial_population parameter but a (1-D) list found.
+Traceback (most recent call last):
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 448, in __init__
+    raise ValueError(f"A 2D list is expected to the initial_population parameter but a ({numpy.array(initial_population).ndim}-D) list found.")
+ValueError: A 2D list is expected to the initial_population parameter but a (1-D) list found.
+2024-05-31 10:39:15,735 - pygad.pygad - ERROR - Error creating the initial population:
+
+When the parameter 'initial_population' is None, then the 2 parameters 'sol_per_pop' and 'num_genes' cannot be None too.
+There are 2 options to prepare the initial population:
+1) Assinging the initial population to the 'initial_population' parameter. In this case, the values of the 2 parameters sol_per_pop and num_genes will be deduced.
+2) Assign integer values to the 'sol_per_pop' and 'num_genes' parameters so that PyGAD can create the initial population automatically.
+Traceback (most recent call last):
+  File "c:\Users\ismael.lopez\.conda\envs\ismael\Lib\site-packages\pygad\pygad.py", line 413, in __init__
+    raise TypeError("Error creating the initial population:\n\nWhen the parameter 'initial_population' is None, then the 2 parameters 'sol_per_pop' and 'num_genes' cannot be None too.\nThere are 2 options to prepare the initial population:\n1) Assinging the initial population to the 'initial_population' parameter. In this case, the values of the 2 parameters sol_per_pop and num_genes will be deduced.\n2) Assign integer values to the 'sol_per_pop' and 'num_genes' parameters so that PyGAD can create the initial population automatically.")
+TypeError: Error creating the initial population:
+
+When the parameter 'initial_population' is None, then the 2 parameters 'sol_per_pop' and 'num_genes' cannot be None too.
+There are 2 options to prepare the initial population:
+1) Assinging the initial population to the 'initial_population' parameter. In this case, the values of the 2 parameters sol_per_pop and num_genes will be deduced.
+2) Assign integer values to the 'sol_per_pop' and 'num_genes' parameters so that PyGAD can create the initial population automatically.
+2024-05-31 11:30:16,556 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-06-01 13:59:43,539 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-06-01 14:38:21,885 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-06-01 16:23:31,713 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-06-01 16:48:53,268 - pygad.pygad - ERROR - The number of parents to select for mating (20) cannot be greater than the number of solutions in the population (10) (i.e., num_parents_mating must always be <= sol_per_pop).
+Traceback (most recent call last):
+  File "c:\Users\ismag\anaconda3\envs\ismael\Lib\site-packages\pygad\pygad.py", line 573, in __init__
+    raise ValueError(f"The number of parents to select for mating ({num_parents_mating}) cannot be greater than the number of solutions in the population ({self.sol_per_pop}) (i.e., num_parents_mating must always be <= sol_per_pop).\n")
+ValueError: The number of parents to select for mating (20) cannot be greater than the number of solutions in the population (10) (i.e., num_parents_mating must always be <= sol_per_pop).
+
+2024-06-01 16:54:00,167 - matplotlib.legend - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-06-03 18:30:40,180 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2024-06-03 18:32:36,743 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2024-06-03 18:33:27,949 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2024-06-03 18:35:05,665 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2024-06-03 18:40:40,097 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2024-06-04 00:09:17,248 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2024-06-04 12:23:09,198 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2024-06-05 11:37:26,508 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
