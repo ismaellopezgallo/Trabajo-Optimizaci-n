@@ -1358,3 +1358,5 @@ ValueError: The number of parents to select for mating (20) cannot be greater th
 2024-06-04 00:09:17,248 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
 2024-06-04 12:23:09,198 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
 2024-06-05 11:37:26,508 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2024-06-07 16:48:43,290 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2024-06-07 22:29:44,231 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
