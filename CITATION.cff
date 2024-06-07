@@ -11,11 +11,11 @@ authors:
   - given-names: Ismael
     family-names: López Gallo
     email: ismael.lopez@alumnos.upm.es
-  - given-names: Landolfi Cano
-    family-names: Silvia
-  - given-names: López García
-    family-names: Álvaro
-  - given-names: Rodríguez de Frutos
-    family-names: Pablo
+  - given-names: Silvia
+    family-names: Landolfi Cano
+  - given-names: Álvaro
+    family-names: López García
+  - given-names: Pablo
+    family-names: Rodríguez de Frutos
 repository-code: >-
   https://github.com/ismaellopezgallo/Trabajo-Optimizacion.git
