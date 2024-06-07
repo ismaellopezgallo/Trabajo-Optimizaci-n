@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Trabajo Optimización Grupo 1 (23-24)
+message: >-
+  Código realizado para la asignatura de Control y
+  Optimización de la ETSIAE durante el curso 23-24
+type: software
+authors:
+  - given-names: Ismael
+    family-names: López Gallo
+    email: ismael.lopez@alumnos.upm.es
+  - given-names: Landolfi Cano
+    family-names: Silvia
+  - given-names: López García
+    family-names: Álvaro
+  - given-names: Rodríguez de Frutos
+    family-names: Pablo
+repository-code: >-
+  https://github.com/ismaellopezgallo/Trabajo-Optimizacion.git
