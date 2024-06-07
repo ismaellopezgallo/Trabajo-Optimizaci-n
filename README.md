@@ -1,4 +1,4 @@
-Este repositorio recoge el material empleado para la elaboración del trabajo de optimización de la asignatura de Control y Optimización de tercer curso del Gradio en Ingeniería Aeroespacial en la Escuela Técnica Superior de Ingeniería Aeronáutica y del Espacio (Universidad Politécnice de Madrid), durante el curso 2023-2024.
+Este repositorio recoge el material empleado para la elaboración del trabajo de optimización de la asignatura de Control y Optimización de tercer curso del Grado en Ingeniería Aeroespacial en la Escuela Técnica Superior de Ingeniería Aeronáutica y del Espacio (Universidad Politécnice de Madrid), durante el curso 2023-2024.
 
 Los autores no se hacen responsables de los errores que este código pudiese presentar. 
 No se permite su distribución ni reproducción con fines lucrativos. 
