@@ -8,11 +8,10 @@ message: >-
   Optimización de la ETSIAE durante el curso 23-24
 type: software
 authors:
-  - given-names: Ismael
-    family-names: López Gallo
-    email: ismael.lopez@alumnos.upm.es
   - given-names: Silvia
     family-names: Landolfi Cano
+  - given-names: Ismael
+    family-names: López Gallo
   - given-names: Álvaro
     family-names: López García
   - given-names: Pablo
